@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AYA - Warm &amp; Empathetic Social Aid</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#25e485",
+                "background-light": "#f6f8f7",
+                "background-dark": "#112119",
+              },
+              fontFamily: {
+                "display": ["Inter", "sans-serif"]
+              },
+              borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+            },
+          },
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#111814] dark:text-white transition-colors duration-300">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Top Navigation -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-[#e5e9e7] dark:border-[#24362d] px-10 py-4 sticky top-0 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md z-50">
+<div class="flex items-center gap-4 text-[#111814] dark:text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6_535)">
+<path clip-rule="evenodd" d="M47.2426 24L24 47.2426L0.757355 24L24 0.757355L47.2426 24ZM12.2426 21H35.7574L24 9.24264L12.2426 21Z" fill="currentColor" fill-rule="evenodd"></path>
+</g>
+<defs><clippath id="clip0_6_535"><rect fill="white" height="48" width="48"></rect></clippath></defs>
+</svg>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-[-0.015em] font-display">AYA</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8 items-center">
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">About Us</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Who We Help</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">How It Works</a>
+</nav>
+<div class="flex gap-3">
+<button class="flex min-w-[100px] cursor-pointer items-center justify-center rounded-xl h-10 px-5 bg-primary text-[#112119] text-sm font-bold transition-transform hover:scale-105 active:scale-95">
+                            Get Help
+                        </button>
+<button class="flex min-w-[100px] cursor-pointer items-center justify-center rounded-xl h-10 px-5 bg-[#f0f4f2] dark:bg-[#24362d] text-[#111814] dark:text-white text-sm font-bold transition-transform hover:scale-105 active:scale-95 border border-[#e5e9e7] dark:border-[#3a4d43]">
+                            Volunteer
+                        </button>
+</div>
+</div>
+</header>
+<main class="flex flex-col items-center">
+<!-- Hero Section -->
+<div class="w-full max-w-[1280px] px-4 md:px-10 py-10 md:py-20">
+<div class="@container">
+<div class="flex flex-col gap-10 md:flex-row items-center">
+<div class="w-full md:w-1/2 flex flex-col gap-8">
+<div class="flex flex-col gap-4 text-left">
+<span class="text-primary font-bold tracking-widest text-sm uppercase">Welcome to AYA</span>
+<h1 class="text-[#111814] dark:text-white text-5xl md:text-7xl font-black leading-[1.1] tracking-[-0.033em] font-display">
+                                        One help at <br/>a time
+                                    </h1>
+<p class="text-[#4e6358] dark:text-[#a0b0a8] text-lg md:text-xl font-normal leading-relaxed max-w-[500px]">
+                                        Providing personalized psychological support and companionship for those who need it most. We're here to listen.
+                                    </p>
+</div>
+<div class="flex flex-wrap gap-4">
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-[#112119] text-lg font-bold shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all">
+                                        Get Support Now
+                                    </button>
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-white dark:bg-[#1c2e26] text-[#111814] dark:text-white text-lg font-bold border-2 border-[#e5e9e7] dark:border-[#3a4d43] hover:bg-gray-50 dark:hover:bg-[#24362d] transition-all">
+                                        Become a Volunteer
+                                    </button>
+</div>
+<div class="flex items-center gap-4 mt-2">
+<div class="flex -space-x-3">
+<div class="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden">
+<div class="w-full h-full bg-cover" data-alt="Volunteer portrait smiling" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCUYLoPEF0w-WXIY4XY8OE-uDOSHcXLZ3WaELQ4_jwA4YbsY6eAaecfno7tFaOJoWF_kiM9yVOfIbm37a13oXIk3E-3oG_yjY3QrqgqOUQifQ2gG2loRN1lVfhNOX_n-dhZvRMpGzB1P-7UpNd9aWAQ2TbEtGHd--Z4mGfYQQJ_jADdgBHt-FFAqOMUO_-1blCeTWvTn4cPCqJnuIlcV1sfo6V-UXJSljbCyRkmkMR-FntDus6wFOTEwThGj8DDC-tcUOI_Ct7Agdo");'></div>
+</div>
+<div class="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden">
+<div class="w-full h-full bg-cover" data-alt="Senior person smiling" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA_oZi3X1fxfauPtIS326QX9fhQLA1PbNbEqcThSPH7sF8zAKJsx49jiTgGwSL3kB64AleQDhETjtm8e1Kglqzi8raDqx6GGvbXRqGv36qHJ525LqYr60MuXAaCOQVsM7U98046-PB53TdWZU8qmzbki7Ak_wdS0gnEox63gQqmYAJaAvlrBwZGG-lIyRFmz6QclvcFRe81_jGpHaPeL8tvaGi9UjXjTXcB_VAA6ek2vukTn62ycYoaVtU72NqECQ50IwVr2JX7n5s");'></div>
+</div>
+<div class="w-10 h-10 rounded-full border-2 border-white bg-gray-200 overflow-hidden">
+<div class="w-full h-full bg-cover" data-alt="Young person portrait" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuByNYpTF1fR99TCJ0ICyTeW55j2VONVhZsYbOublR12I7edAONOBUnri7aV9FQ5Acb9alKRkMk6Kt7lHmsSf0LYLCBjiIL2pzu_oJLwrT3DuQBbVtqJX1h9ZP1hizTmdxkKOgfXvnzXHJGzX1l2o06s4EVnQ0l_GCQYTtC96U-4LM9RVhF_Kmxs9otNzxAcqE9FVhqMvqK8-O0JPMSJTcCG4Cex73isgBDFLo6aXmaWfR0_WNGPlcX-TfPsFn0f4JyZJzXiVeqngpg");'></div>
+</div>
+</div>
+<p class="text-sm font-medium text-[#4e6358] dark:text-[#a0b0a8]">Join 500+ active volunteers helping daily</p>
+</div>
+</div>
+<div class="w-full md:w-1/2 relative">
+<div class="absolute -top-4 -left-4 w-24 h-24 bg-primary/20 rounded-full blur-2xl"></div>
+<div class="absolute -bottom-4 -right-4 w-32 h-32 bg-primary/30 rounded-full blur-3xl"></div>
+<div class="w-full aspect-[4/5] bg-center bg-no-repeat bg-cover rounded-3xl shadow-2xl relative z-10" data-alt="Two people sitting on a park bench talking empathetically" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBTLYOWHER11D4Iy6iQfHqPmKbhi-b1dgLgBA4pBpOTjdS5F2JhSJq6xzksbeTpfts0ZG4OAyy8Kwe5sCYhArhvskFG4FWvEUzmX96auKc9sSniS26ZWWaNDIpzQVhTj2b67zvOen76AvGwvKmq4l_DSz0H1hEbdYNCHeq4PJhKCELjiWc6x7lJspHZo6ac_tyHDielGLA_ZYzNWaWcWNz3gsYILBgGoVnyIGJdrAp6gh0OtY8E5uQksXvY19pYnedL8C2oFEkijsw");'></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Mission Statement -->
+<section class="w-full bg-white dark:bg-[#0d1813] py-20">
+<div class="max-w-[960px] mx-auto px-4 text-center">
+<h2 class="text-[#111814] dark:text-white text-3xl md:text-5xl font-bold leading-tight mb-6 font-display">
+                            Restoring hope through human connection and professional empathy.
+                        </h2>
+<p class="text-[#4e6358] dark:text-[#a0b0a8] text-lg md:text-xl font-normal leading-relaxed max-w-[700px] mx-auto">
+                            We believe in the power of trust and the strength of being heard. Our mission is to provide a safe, confidential space for every individual to find the support they need.
+                        </p>
+</div>
+</section>
+<!-- Who We Help Section -->
+<section class="w-full max-w-[1280px] px-4 md:px-10 py-20">
+<div class="flex flex-col gap-4 mb-12 px-4">
+<h2 class="text-3xl font-bold tracking-tight">Who We Help</h2>
+<div class="w-20 h-1.5 bg-primary rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+<!-- Adolescents -->
+<div class="group p-8 rounded-3xl bg-white dark:bg-[#1c2e26] border border-[#e5e9e7] dark:border-[#3a4d43] hover:shadow-xl transition-all hover:-translate-y-1">
+<div class="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-3xl">child_care</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Youth &amp; Adolescents</h3>
+<p class="text-[#4e6358] dark:text-[#a0b0a8] leading-relaxed mb-6">Navigating school, relationships, and identity can be overwhelming. We provide a non-judgmental ear for the younger generation.</p>
+<a class="text-primary font-bold flex items-center gap-2 group-hover:gap-3 transition-all" href="#">Learn more <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<!-- Crisis -->
+<div class="group p-8 rounded-3xl bg-white dark:bg-[#1c2e26] border border-[#e5e9e7] dark:border-[#3a4d43] hover:shadow-xl transition-all hover:-translate-y-1">
+<div class="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-3xl">save_alt</span>
+</div>
+<h3 class="text-xl font-bold mb-3">People in Distress</h3>
+<p class="text-[#4e6358] dark:text-[#a0b0a8] leading-relaxed mb-6">Immediate emotional support for those facing life's hardest moments. You don't have to carry the weight alone.</p>
+<a class="text-primary font-bold flex items-center gap-2 group-hover:gap-3 transition-all" href="#">Learn more <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+<!-- Elderly -->
+<div class="group p-8 rounded-3xl bg-white dark:bg-[#1c2e26] border border-[#e5e9e7] dark:border-[#3a4d43] hover:shadow-xl transition-all hover:-translate-y-1">
+<div class="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-3xl">elderly</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Elderly Companionship</h3>
+<p class="text-[#4e6358] dark:text-[#a0b0a8] leading-relaxed mb-6">Fighting loneliness through regular companionship and active listening for our seniors in isolation.</p>
+<a class="text-primary font-bold flex items-center gap-2 group-hover:gap-3 transition-all" href="#">Learn more <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+</section>
+<!-- How It Works Section -->
+<section class="w-full bg-[#f0fdf4] dark:bg-[#162920] py-20">
+<div class="max-w-[1280px] mx-auto px-4 md:px-10">
+<div class="text-center mb-16">
+<h2 class="text-3xl font-bold mb-4">How It Works</h2>
+<p class="text-[#4e6358] dark:text-[#a0b0a8]">Three simple steps to start your journey with us</p>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-start gap-12 relative">
+<div class="hidden md:block absolute top-10 left-[10%] right-[10%] h-0.5 border-t-2 border-dashed border-primary/30 z-0"></div>
+<div class="flex flex-col items-center text-center gap-6 relative z-10 flex-1">
+<div class="w-20 h-20 rounded-full bg-white dark:bg-[#112119] shadow-lg flex items-center justify-center text-2xl font-black text-primary border-4 border-primary/20">1</div>
+<h4 class="text-xl font-bold">Reach Out</h4>
+<p class="text-[#4e6358] dark:text-[#a0b0a8]">Call or message our secure line. Our intake team is available 24/7 to hear you.</p>
+</div>
+<div class="flex flex-col items-center text-center gap-6 relative z-10 flex-1">
+<div class="w-20 h-20 rounded-full bg-white dark:bg-[#112119] shadow-lg flex items-center justify-center text-2xl font-black text-primary border-4 border-primary/20">2</div>
+<h4 class="text-xl font-bold">Get Matched</h4>
+<p class="text-[#4e6358] dark:text-[#a0b0a8]">We pair you with a trained volunteer who specializes in your specific needs.</p>
+</div>
+<div class="flex flex-col items-center text-center gap-6 relative z-10 flex-1">
+<div class="w-20 h-20 rounded-full bg-white dark:bg-[#112119] shadow-lg flex items-center justify-center text-2xl font-black text-primary border-4 border-primary/20">3</div>
+<h4 class="text-xl font-bold">Heal Together</h4>
+<p class="text-[#4e6358] dark:text-[#a0b0a8]">Begin regular sessions in a comfortable environment, building a bridge to recovery.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Emergency CTA -->
+<section class="w-full max-w-[1280px] px-4 md:px-10 py-16">
+<div class="bg-primary/10 dark:bg-primary/5 rounded-[2rem] p-8 md:p-16 flex flex-col md:flex-row items-center justify-between gap-10">
+<div class="flex-1">
+<h2 class="text-3xl md:text-4xl font-black mb-4">In immediate crisis?</h2>
+<p class="text-lg text-[#4e6358] dark:text-[#a0b0a8] mb-8">Our emergency intervention team is standing by. Don't wait, your life and well-being matter to us.</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="text-sm font-bold uppercase tracking-widest opacity-60">Call our 24/7 hotline</p>
+<p class="text-2xl font-black tracking-tight">1-800-AYA-HELP</p>
+</div>
+</div>
+</div>
+<div class="w-full md:w-auto">
+<button class="w-full md:w-auto px-10 py-5 bg-[#112119] dark:bg-primary text-white dark:text-[#112119] rounded-2xl font-bold text-xl hover:opacity-90 transition-opacity">
+                                Chat Online Now
+                            </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-white dark:bg-[#0d1813] border-t border-[#e5e9e7] dark:border-[#24362d] py-16">
+<div class="max-w-[1280px] mx-auto px-10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-3 mb-6 text-primary">
+<span class="material-symbols-outlined text-3xl font-bold">diversity_1</span>
+<h2 class="text-2xl font-bold text-[#111814] dark:text-white">AYA</h2>
+</div>
+<p class="text-[#4e6358] dark:text-[#a0b0a8] leading-relaxed">
+                                Dedicated to mental wellness and social connection. Every voice deserves to be heard, every soul deserves companionship.
+                            </p>
+</div>
+<div>
+<h4 class="font-bold mb-6">Organization</h4>
+<ul class="flex flex-col gap-4 text-[#4e6358] dark:text-[#a0b0a8]">
+<li><a class="hover:text-primary transition-colors" href="#">Our Story</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Impact Report</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Careers</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Press Kit</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6">Support</h4>
+<ul class="flex flex-col gap-4 text-[#4e6358] dark:text-[#a0b0a8]">
+<li><a class="hover:text-primary transition-colors" href="#">Find Help</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Volunteer Hub</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6">Newsletter</h4>
+<p class="text-sm text-[#4e6358] dark:text-[#a0b0a8] mb-4">Stay updated with our latest missions and stories of hope.</p>
+<div class="flex gap-2">
+<input class="bg-[#f0f4f2] dark:bg-[#1c2e26] border-none rounded-xl px-4 py-2 w-full focus:ring-2 focus:ring-primary" placeholder="Email address" type="email"/>
+<button class="bg-primary text-[#112119] px-4 py-2 rounded-xl font-bold">Join</button>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-[#e5e9e7] dark:border-[#24362d] flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-[#4e6358] dark:text-[#a0b0a8]">
+<p>© 2024 AYA Foundation. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">thumb_up</span></a>
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">mail</span></a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
