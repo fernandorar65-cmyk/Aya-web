@@ -4,19 +4,19 @@
       <div class="flex flex-col gap-10 md:flex-row items-center">
         <div class="w-full md:w-1/2 flex flex-col gap-8">
           <div class="flex flex-col gap-4 text-left">
-            <span class="text-primary font-bold tracking-widest text-sm uppercase">Welcome to AYA</span>
-            <h1 class="text-gray-900 dark:text-white text-5xl md:text-7xl font-black leading-[1.1] tracking-[-0.033em] font-display">
+            <span class="text-green-300 font-bold tracking-widest text-sm uppercase">Welcome to AYA</span>
+            <h1 class="text-gray-900 text-5xl md:text-7xl font-black leading-[1.1] tracking-[-0.033em] font-display">
               One help at <br/>a time
             </h1>
-            <p class="text-green-700 dark:text-green-300 text-lg md:text-xl font-normal leading-relaxed max-w-[500px]">
+            <p class="text-black text-lg md:text-xl font-normal leading-relaxed max-w-[500px]">
               Providing personalized psychological support and companionship for those who need it most. We're here to listen.
             </p>
           </div>
           <div class="flex flex-wrap gap-4">
-            <button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-gray-900 text-lg font-bold shadow-lg shadow-primary/20 hover:bg-green-500 transition-all">
+            <button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-green-400 text-gray-900 text-lg font-bold shadow-lg shadow-primary/20 hover:bg-green-500 transition-all">
               Get Support Now
             </button>
-            <button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-white dark:bg-green-900 text-gray-900 dark:text-white text-lg font-bold border-2 border-green-200 dark:border-green-700 hover:bg-green-50 dark:hover:bg-green-800 transition-all">
+            <button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-white text-gray-900 text-lg font-bold border-2 border-gray-200 hover:bg-green-50 transition-all">
               Become a Volunteer
             </button>
           </div>
@@ -32,7 +32,7 @@
                 <div class="w-full h-full bg-cover" data-alt="Young person portrait" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuByNYpTF1fR99TCJ0ICyTeW55j2VONVhZsYbOublR12I7edAONOBUnri7aV9FQ5Acb9alKRkMk6Kt7lHmsSf0LYLCBjiIL2pzu_oJLwrT3DuQBbVtqJX1h9ZP1hizTmdxkKOgfXvnzXHJGzX1l2o06s4EVnQ0l_GCQYTtC96U-4LM9RVhF_Kmxs9otNzxAcqE9FVhqMvqK8-O0JPMSJTcCG4Cex73isgBDFLo6aXmaWfR0_WNGPlcX-TfPsFn0f4JyZJzXiVeqngpg");'></div>
               </div>
             </div>
-            <p class="text-sm font-medium text-green-700 dark:text-green-300">Join 500+ active volunteers helping daily</p>
+            <p class="text-sm font-medium text-gray-500">Join 500+ active volunteers helping daily</p>
           </div>
         </div>
         <div class="w-full md:w-1/2 relative">
