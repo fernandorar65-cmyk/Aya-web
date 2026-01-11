@@ -1,5 +1,6 @@
 <template>
-  <section class="w-full max-w-[1600px] px-6 md:px-16 lg:px-20 py-20 md:py-24">
+  <section class="w-full flex justify-center px-6 md:px-16 lg:px-20 xl:px-24 py-20 md:py-24">
+    <div class="w-full flex justify-center">
     <div class="bg-green-100 rounded-[2rem] p-10 md:p-16 lg:p-20 flex flex-col md:flex-row items-center justify-between gap-10 w-full">
       <div class="flex-1 w-full">
         <h2 class="text-3xl md:text-4xl text-black font-bold mb-4 leading-tight">In immediate crisis?</h2>
@@ -21,6 +22,7 @@
           Chat Online Now
         </button>
       </div>
+    </div>
     </div>
   </section>
 </template>

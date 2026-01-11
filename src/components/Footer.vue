@@ -1,6 +1,7 @@
 <template>
   <footer class="bg-white border-t border-gray-300 py-16">
-    <div class=" max-w-[1600px] mx-auto px-10">
+    <div class="w-full flex justify-center px-4 md:px-10 lg:px-16 xl:px-20">
+      <div class="w-full flex flex-col">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
         <div class="col-span-1 md:col-span-1">
           <div class="flex items-center gap-3 mb-6">
@@ -60,6 +61,7 @@
           </svg>
 
         </div>
+      </div>
       </div>
     </div>
   </footer>

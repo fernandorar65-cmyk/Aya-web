@@ -1,6 +1,7 @@
 <template>
   <section id="how-it-works" class="w-full bg-gray-100 py-20">
-    <div class="max-w-[1280px] mx-auto px-4 md:px-10">
+    <div class="w-full flex justify-center px-4 md:px-10 lg:px-16 xl:px-20">
+      <div class="w-full flex flex-col items-center">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-bold text-black mb-4">How It Works</h2>
         <p class="text-gray-400">Three simple steps to start your journey with us</p>
@@ -22,6 +23,7 @@
           <h4 class="text-xl font-bold text-black">Heal Together</h4>
           <p class="text-gray-400 font-semibold">Begin regular sessions in a comfortable environment, building a bridge to recovery.</p>
         </div>
+      </div>
       </div>
     </div>
   </section>
