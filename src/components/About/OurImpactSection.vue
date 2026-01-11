@@ -1,7 +1,7 @@
 <template>
   <div class="mb-16">
     <div class="flex justify-center mb-4">
-      <span class="material-symbols-outlined text-green-400 text-4xl">local_florist</span>
+      <Icon icon="material-symbols:local-florist" class="text-green-400 text-4xl" />
     </div>
     <h1 class="text-gray-900 tracking-light text-[32px] md:text-[42px] font-bold leading-tight px-4 text-center pb-3">Our Impact</h1>
     <p class="text-gray-600 text-base font-normal leading-normal pb-8 pt-1 px-4 text-center max-w-2xl mx-auto">
@@ -15,7 +15,7 @@
         </div>
         <div>
           <div class="flex items-center gap-2 mb-3 text-green-400">
-            <span class="material-symbols-outlined">auto_awesome</span>
+            <Icon icon="material-symbols:auto-awesome" />
             <p class="text-gray-900 text-lg font-bold leading-normal">Adolescents</p>
           </div>
           <ul class="space-y-2">
@@ -38,7 +38,7 @@
         </div>
         <div>
           <div class="flex items-center gap-2 mb-3 text-green-400">
-            <span class="material-symbols-outlined">psychology</span>
+            <Icon icon="material-symbols:psychology" />
             <p class="text-gray-900 text-lg font-bold leading-normal">People in Distress</p>
           </div>
           <ul class="space-y-2">
@@ -61,7 +61,7 @@
         </div>
         <div>
           <div class="flex items-center gap-2 mb-3 text-green-400">
-            <span class="material-symbols-outlined">volunteer_activism</span>
+            <Icon icon="material-symbols:volunteer-activism" />
             <p class="text-gray-900 text-lg font-bold leading-normal">Elderly in Abandonment</p>
           </div>
           <ul class="space-y-2">
@@ -82,4 +82,5 @@
 
 <script setup lang="ts">
 // Our Impact Section component
+import { Icon } from '@iconify/vue'
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div class="py-16 bg-green-50 rounded-[2.5rem] p-12 relative overflow-hidden">
     <div class="absolute -top-10 -right-10 opacity-5">
-      <span class="material-symbols-outlined text-[200px] text-green-400">local_florist</span>
+      <Icon icon="material-symbols:local-florist" class="text-green-400 text-[200px]" />  
     </div>
     <h2 class="text-gray-900 text-[28px] font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-5 text-center">How it Works: One help at a time</h2>
     <p class="text-gray-600 text-center mb-16 max-w-xl mx-auto">Our streamlined psychological support process guides you through every step of the journey.</p>
@@ -9,7 +9,7 @@
       <!-- Step 1 -->
       <div class="flex flex-col items-center text-center flex-1 relative z-10">
         <div class="size-16 rounded-full bg-green-400 text-white flex items-center justify-center font-bold text-2xl mb-6 shadow-xl shadow-green-400/30 ring-4 ring-white">
-          <span class="material-symbols-outlined">forum</span>
+          <Icon icon="material-symbols:forum" class="text-2xl" />
         </div>
         <h3 class="text-gray-900 font-bold mb-3 text-lg">First Contact</h3>
         <p class="text-gray-600 text-sm leading-relaxed">Reach out via our secure form or 24/7 hotline to start the journey.</p>
@@ -19,7 +19,7 @@
       <!-- Step 2 -->
       <div class="flex flex-col items-center text-center flex-1 relative z-10">
         <div class="size-16 rounded-full bg-green-400 text-white flex items-center justify-center font-bold text-2xl mb-6 shadow-xl shadow-green-400/30 ring-4 ring-white">
-          <span class="material-symbols-outlined">fact_check</span>
+          <Icon icon="material-symbols:fact-check" class="text-2xl" />
         </div>
         <h3 class="text-gray-900 font-bold mb-3 text-lg">Initial Assessment</h3>
         <p class="text-gray-600 text-sm leading-relaxed">A clinical psychologist evaluates your unique needs with empathy.</p>
@@ -29,7 +29,7 @@
       <!-- Step 3 -->
       <div class="flex flex-col items-center text-center flex-1 relative z-10">
         <div class="size-16 rounded-full bg-green-400 text-white flex items-center justify-center font-bold text-2xl mb-6 shadow-xl shadow-green-400/30 ring-4 ring-white">
-          <span class="material-symbols-outlined">group_add</span>
+          <Icon icon="material-symbols:group-add" class="text-2xl" />
         </div>
         <h3 class="text-gray-900 font-bold mb-3 text-lg">Matching</h3>
         <p class="text-gray-600 text-sm leading-relaxed">We pair you with a specialized volunteer that fits your profile.</p>
@@ -39,7 +39,7 @@
       <!-- Step 4 -->
       <div class="flex flex-col items-center text-center flex-1 relative z-10">
         <div class="size-16 rounded-full bg-green-400 text-white flex items-center justify-center font-bold text-2xl mb-6 shadow-xl shadow-green-400/30 ring-4 ring-white">
-          <span class="material-symbols-outlined">favorite</span>
+          <Icon icon="material-symbols:favorite" class="text-2xl" />
         </div>
         <h3 class="text-gray-900 font-bold mb-3 text-lg">Accompaniment</h3>
         <p class="text-gray-600 text-sm leading-relaxed">Ongoing, personalized support for as long as you need it.</p>
@@ -60,4 +60,5 @@
 
 <script setup lang="ts">
 // How it Works Section component
+import { Icon } from '@iconify/vue'
 </script>
