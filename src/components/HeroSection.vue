@@ -1,6 +1,6 @@
 <template>
   <div id="home" class="w-full bg-gray-100">
-    <div class="max-w-[1280px] px-4 md:px-10 py-10 md:py-20 mx-auto">
+    <div class="w-full px-4 md:px-10 py-10 md:py-20 mx-auto">
       <div class="@container">
         <div class="flex flex-col gap-10 md:flex-row md:items-center md:gap-8">
           <div class="w-full md:w-1/2 flex flex-col gap-8">
