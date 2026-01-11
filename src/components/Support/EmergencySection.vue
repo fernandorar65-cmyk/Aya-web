@@ -4,7 +4,7 @@
     <div class="absolute bottom-0 left-0 w-64 h-64 bg-green-300/10 rounded-full blur-[80px] -ml-32 -mb-32"></div>
     <div class="relative z-10 max-w-lg">
       <div class="flex items-center gap-2 text-green-300 mb-4">
-        <span class="material-symbols-outlined">warning</span>
+        <Icon icon="material-symbols:warning" />
         <span class="text-xs font-bold uppercase tracking-[0.2em]">Urgent Care</span>
       </div>
       <h4 class="text-3xl font-bold mb-3">In Immediate Danger?</h4>
@@ -12,7 +12,7 @@
     </div>
     <div class="flex flex-wrap gap-4 relative z-10 w-full md:w-auto">
       <button class="flex-1 md:flex-none bg-red-500/20 text-red-400 border border-red-500/50 px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-red-500 hover:text-white transition-all">
-        <span class="material-symbols-outlined">emergency</span>
+        <Icon icon="material-symbols:emergency" />
         Call 988 (Crisis Line)
       </button>
       <button class="flex-1 md:flex-none bg-white/10 text-white px-8 py-4 rounded-xl font-bold hover:bg-white/20 transition-all border border-white/10">
@@ -23,5 +23,5 @@
 </template>
 
 <script setup lang="ts">
-// Emergency Section component
+import { Icon } from '@iconify/vue'
 </script>

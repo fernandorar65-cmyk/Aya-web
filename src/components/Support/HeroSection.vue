@@ -20,11 +20,11 @@
           </div>
           <div class="flex flex-wrap gap-6">
             <div class="flex items-center gap-2 text-sm font-semibold text-gray-500">
-              <span class="material-symbols-outlined text-green-400">verified_user</span>
+              <Icon icon="material-symbols:verified-user" class="text-green-400" />
               Professional Oversight
             </div>
             <div class="flex items-center gap-2 text-sm font-semibold text-gray-500">
-              <span class="material-symbols-outlined text-green-400">lock</span>
+              <Icon icon="material-symbols:lock" class="text-green-400" />
               100% Confidential
             </div>
           </div>
@@ -35,5 +35,5 @@
 </template>
 
 <script setup lang="ts">
-// Support Hero Section component
+import { Icon } from '@iconify/vue'
 </script>

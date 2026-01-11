@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-50 rounded-2xl p-8 shadow-sm border border-gray-200 relative overflow-hidden">
     <div class="absolute top-0 right-0 p-4 opacity-10 pointer-events-none">
-      <span class="material-symbols-outlined text-green-400 text-6xl">spa</span>
+      <Icon icon="material-symbols:spa" class="text-green-400 text-6xl" />
     </div>
     <div class="flex flex-col gap-6 relative z-10">
       <div class="flex flex-col gap-2">
@@ -29,11 +29,11 @@
           <label class="text-sm font-bold text-gray-700">Preferred Support Channel</label>
           <div class="grid grid-cols-2 gap-4">
             <button class="flex flex-col items-center justify-center p-4 border-2 border-green-400 bg-green-50 rounded-xl transition-all" type="button">
-              <span class="material-symbols-outlined text-green-400 mb-1">chat</span>
+              <Icon icon="material-symbols:chat" class="text-green-400 mb-1" />
               <span class="text-xs font-bold text-green-400">Text Chat</span>
             </button>
             <button class="flex flex-col items-center justify-center p-4 border-2 border-transparent bg-gray-100 rounded-xl hover:border-green-400/30 transition-all" type="button">
-              <span class="material-symbols-outlined text-gray-400 mb-1">call</span>
+              <Icon icon="material-symbols:call" class="text-gray-400 mb-1" />
               <span class="text-xs font-bold text-gray-500">Voice Call</span>
             </button>
           </div>
@@ -47,7 +47,7 @@
             Continue to Next Step
           </button>
           <div class="flex items-center justify-center gap-2 text-[11px] text-gray-400 font-medium uppercase tracking-widest">
-            <span class="material-symbols-outlined text-[14px]">lock</span>
+            <Icon icon="material-symbols:lock" class="text-[14px]" />
             Encrypted & Secure
           </div>
         </div>
@@ -57,5 +57,5 @@
 </template>
 
 <script setup lang="ts">
-// Support Form Card component
+import { Icon } from '@iconify/vue'
 </script>

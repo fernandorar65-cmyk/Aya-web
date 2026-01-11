@@ -2,7 +2,7 @@
   <div class="flex flex-col gap-8">
     <div class="bg-green-50 rounded-2xl p-8 border border-green-200 relative overflow-hidden">
       <div class="absolute -bottom-8 -left-8 opacity-10 rotate-12 pointer-events-none">
-        <span class="material-symbols-outlined text-green-400 text-9xl">emoji_nature</span>
+        <Icon icon="material-symbols:emoji-nature" class="text-green-400 text-9xl" />
       </div>
       <h3 class="text-2xl font-bold mb-4 text-gray-900">The Impact of Your Time</h3>
       <p class="text-gray-600 mb-8 leading-relaxed">
@@ -25,7 +25,7 @@
       <div class="space-y-4">
         <div class="flex gap-4 p-5 rounded-xl bg-gray-50 border border-gray-200 hover:border-green-400/30 transition-all group">
           <div class="bg-green-100 text-green-400 w-12 h-12 rounded-full flex items-center justify-center shrink-0 group-hover:bg-green-400 group-hover:text-white transition-all">
-            <span class="material-symbols-outlined">psychology</span>
+            <Icon icon="material-symbols:psychology" />
           </div>
           <div class="flex flex-col justify-center">
             <h5 class="font-bold text-sm text-gray-900">Empathetic Training</h5>
@@ -34,7 +34,7 @@
         </div>
         <div class="flex gap-4 p-5 rounded-xl bg-gray-50 border border-gray-200 hover:border-green-400/30 transition-all group">
           <div class="bg-green-100 text-green-400 w-12 h-12 rounded-full flex items-center justify-center shrink-0 group-hover:bg-green-400 group-hover:text-white transition-all">
-            <span class="material-symbols-outlined">schedule</span>
+            <Icon icon="material-symbols:schedule" />
           </div>
           <div class="flex flex-col justify-center">
             <h5 class="font-bold text-sm text-gray-900">Flexible Commitment</h5>
@@ -43,7 +43,7 @@
         </div>
         <div class="flex gap-4 p-5 rounded-xl bg-gray-50 border border-gray-200 hover:border-green-400/30 transition-all group">
           <div class="bg-green-100 text-green-400 w-12 h-12 rounded-full flex items-center justify-center shrink-0 group-hover:bg-green-400 group-hover:text-white transition-all">
-            <span class="material-symbols-outlined">volunteer_activism</span>
+            <Icon icon="material-symbols:volunteer-activism" />
           </div>
           <div class="flex flex-col justify-center">
             <h5 class="font-bold text-sm text-gray-900">Supportive Community</h5>
@@ -52,7 +52,7 @@
         </div>
       </div>
       <button class="w-full bg-white text-green-400 font-bold py-4 rounded-xl border-2 border-green-400/20 hover:border-green-400 hover:bg-green-50 transition-all flex items-center justify-center gap-2 mt-2">
-        <span class="material-symbols-outlined">favorite</span>
+        <Icon icon="material-symbols:favorite" />
         Apply to Volunteer
       </button>
     </div>
@@ -60,5 +60,5 @@
 </template>
 
 <script setup lang="ts">
-// Volunteer Info Card component
+import { Icon } from '@iconify/vue'
 </script>
