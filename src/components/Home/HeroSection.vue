@@ -5,7 +5,10 @@
         <div class="flex flex-col gap-10 md:flex-row md:items-center md:gap-8">
           <div class="w-full md:w-1/2 flex flex-col gap-8">
             <div class="flex flex-col gap-4 text-left">
-              <span class="text-violet-300 font-bold tracking-widest text-sm uppercase">Welcome to AYA</span>
+              <span class="text-violet-300 font-bold tracking-widest text-sm uppercase py-2 px-4 bg-violet-500/10 rounded-full inline-flex items-center gap-3 w-fit">
+                <Icon icon="material-symbols:local-florist" class="text-violet-400 text-xl" />
+                Pure Empathy
+              </span>
               <h1 class="text-gray-900 text-5xl md:text-7xl font-black leading-[1.1] tracking-[-0.033em] font-display">
                 One help at <br/>a time
               </h1>
@@ -49,4 +52,5 @@
 
 <script setup lang="ts">
 // Hero section component
+import { Icon } from '@iconify/vue'
 </script>
