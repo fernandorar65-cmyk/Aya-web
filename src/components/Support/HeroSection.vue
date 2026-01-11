@@ -6,13 +6,12 @@
         </div>
         <div class="flex flex-col gap-6 w-full @[864px]:w-1/2 @[864px]:pl-12">
           <div class="flex flex-col gap-4">
-            <div class="inline-flex items-center gap-2 text-green-400 font-bold text-sm tracking-widest uppercase">
-              <span class="w-8 h-[1px] bg-green-400"></span>
+            <div class="inline-flex items-center gap-2 text-violet-400 font-bold text-sm tracking-widest uppercase">
+              <span class="w-8 h-[1px] bg-violet-400"></span>
               Finding Balance
             </div>
-            <h1 class="text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl text-gray-900">
-              You are not alone. 
-              <span class="text-green-500">Growth begins here.</span>
+            <h1 class="text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-7xl text-gray-900">
+              You are not alone.
             </h1>
             <p class="text-lg font-normal leading-relaxed text-gray-600">
               Whether you are navigating a difficult season or looking to share your strength, AYA is a sanctuary built on empathy, rebirth, and professional guidance.
@@ -20,11 +19,11 @@
           </div>
           <div class="flex flex-wrap gap-6">
             <div class="flex items-center gap-2 text-sm font-semibold text-gray-500">
-              <Icon icon="material-symbols:verified-user" class="text-green-400" />
-              Professional Oversight
+              <Icon icon="material-symbols:verified-user" class="text-violet-400" />
+              24/7 Professional Oversight
             </div>
             <div class="flex items-center gap-2 text-sm font-semibold text-gray-500">
-              <Icon icon="material-symbols:lock" class="text-green-400" />
+              <Icon icon="material-symbols:lock" class="text-violet-400" />
               100% Confidential
             </div>
           </div>

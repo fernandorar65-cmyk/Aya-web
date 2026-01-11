@@ -1,9 +1,9 @@
 <template>
   <div class="mt-20 bg-gray-900 text-white rounded-[2rem] p-10 flex flex-col md:flex-row items-center justify-between gap-8 overflow-hidden relative">
-    <div class="absolute top-0 right-0 w-80 h-80 bg-green-400/20 rounded-full blur-[100px] -mr-40 -mt-40"></div>
-    <div class="absolute bottom-0 left-0 w-64 h-64 bg-green-300/10 rounded-full blur-[80px] -ml-32 -mb-32"></div>
+    <div class="absolute top-0 right-0 w-80 h-80 bg-violet-400/20 rounded-full blur-[100px] -mr-40 -mt-40"></div>
+    <div class="absolute bottom-0 left-0 w-64 h-64 bg-violet-300/10 rounded-full blur-[80px] -ml-32 -mb-32"></div>
     <div class="relative z-10 max-w-lg">
-      <div class="flex items-center gap-2 text-green-300 mb-4">
+      <div class="flex items-center gap-2 text-violet-300 mb-4">
         <Icon icon="material-symbols:warning" />
         <span class="text-xs font-bold uppercase tracking-[0.2em]">Urgent Care</span>
       </div>

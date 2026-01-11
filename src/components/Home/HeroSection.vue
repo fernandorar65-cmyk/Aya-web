@@ -5,7 +5,7 @@
         <div class="flex flex-col gap-10 md:flex-row md:items-center md:gap-8">
           <div class="w-full md:w-1/2 flex flex-col gap-8">
             <div class="flex flex-col gap-4 text-left">
-              <span class="text-green-300 font-bold tracking-widest text-sm uppercase">Welcome to AYA</span>
+              <span class="text-violet-300 font-bold tracking-widest text-sm uppercase">Welcome to AYA</span>
               <h1 class="text-gray-900 text-5xl md:text-7xl font-black leading-[1.1] tracking-[-0.033em] font-display">
                 One help at <br/>a time
               </h1>
@@ -14,10 +14,10 @@
               </p>
             </div>
             <div class="flex flex-wrap gap-4">
-              <button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-green-400 text-gray-900 text-lg font-bold shadow-lg shadow-primary/20 hover:bg-green-500 transition-all">
+              <button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-violet-400 text-gray-900 text-lg font-bold shadow-lg shadow-primary/20 hover:bg-violet-500 transition-all">
                 Get Support Now
               </button>
-              <button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-white text-gray-900 text-lg font-bold border-2 border-gray-200 hover:bg-green-50 transition-all">
+              <button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-white text-gray-900 text-lg font-bold border-2 border-gray-200 hover:bg-violet-50 transition-all">
                 Become a Volunteer
               </button>
             </div>
