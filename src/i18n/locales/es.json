@@ -1,0 +1,166 @@
+{
+  "common": {
+    "welcome": "Welcome to AYA",
+    "getHelp": "Get Help",
+    "volunteer": "Volunteer",
+    "learnMore": "Learn more",
+    "home": "Home",
+    "about": "About Us",
+    "whoWeHelp": "Who We Help",
+    "howItWorks": "How It Works"
+  },
+  "hero": {
+    "badge": "Pure Empathy",
+    "title": "One help at\na time",
+    "description": "Providing personalized psychological support and companionship for those who need it most. We're here to listen.",
+    "getSupport": "Get Support Now",
+    "becomeVolunteer": "Become a Volunteer",
+    "joinVolunteers": "Join 500+ active volunteers helping daily"
+  },
+  "mission": {
+    "title": "Restoring hope through human connection and professional empathy.",
+    "quote": "We believe in the power of being heard. Every lotus blooms in its own time; we provide the gentle environment for that growth."
+  },
+  "whoWeHelp": {
+    "title": "Who We Help",
+    "adolescents": {
+      "title": "Youth & Adolescents",
+      "description": "Navigating school, relationships, and identity can be overwhelming. We provide a non-judgmental ear for the younger generation."
+    },
+    "distress": {
+      "title": "People in Distress",
+      "description": "Immediate emotional support for those facing life's hardest moments. You don't have to carry the weight alone."
+    },
+    "elderly": {
+      "title": "Elderly Companionship",
+      "description": "Fighting loneliness through regular companionship and active listening for our seniors in isolation."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Three simple steps to start your journey with us",
+    "step1": {
+      "title": "Reach Out",
+      "description": "Call or message our secure line. Our intake team is available 24/7 to hear you."
+    },
+    "step2": {
+      "title": "Get Matched",
+      "description": "We pair you with a trained volunteer who specializes in your specific needs."
+    },
+    "step3": {
+      "title": "Heal Together",
+      "description": "Begin regular sessions in a comfortable environment, building a bridge to recovery."
+    }
+  },
+  "crisis": {
+    "title": "In immediate crisis?",
+    "description": "Our emergency intervention team is standing by. Don't wait, your life and well-being matter to us.",
+    "hotline": "Call our 24/7 hotline",
+    "phoneNumber": "1-800-AYA-HELP",
+    "chatOnline": "Chat Online Now"
+  },
+  "about": {
+    "impact": {
+      "title": "Our Impact",
+      "description": "Transforming lives through compassion. We provide specialized psychological support and companionship for those navigating life's most challenging transitions.",
+      "adolescents": {
+        "title": "Adolescents",
+        "item1": "Identity discovery and self-esteem support.",
+        "item2": "Managing academic pressure."
+      },
+      "distress": {
+        "title": "People in Distress",
+        "item1": "Crisis intervention with empathy.",
+        "item2": "Professional clinical guidance."
+      },
+      "elderly": {
+        "title": "Elderly in Abandonment",
+        "item1": "Consistent social companionship.",
+        "item2": "Restoring dignity and presence."
+      }
+    },
+    "process": {
+      "title": "How it Works: One help at a time",
+      "description": "Our streamlined psychological support process guides you through every step of the journey.",
+      "step1": {
+        "title": "First Contact",
+        "description": "Reach out via our secure form or 24/7 hotline to start the journey."
+      },
+      "step2": {
+        "title": "Initial Assessment",
+        "description": "A clinical psychologist evaluates your unique needs with empathy."
+      },
+      "step3": {
+        "title": "Matching",
+        "description": "We pair you with a specialized volunteer that fits your profile."
+      },
+      "step4": {
+        "title": "Accompaniment",
+        "description": "Ongoing, personalized support for as long as you need it."
+      },
+      "startProcess": "Start the Process",
+      "becomeVolunteer": "Become a Volunteer"
+    }
+  },
+  "support": {
+    "hero": {
+      "badge": "Finding Balance",
+      "title": "You are not alone.",
+      "description": "Whether you are navigating a difficult season or looking to share your strength, AYA is a sanctuary built on empathy, rebirth, and professional guidance.",
+      "professionalOversight": "24/7 Professional Oversight",
+      "confidential": "100% Confidential"
+    },
+    "tabs": {
+      "title": "How can we support you today?",
+      "needSupport": "I Need Support",
+      "wantVolunteer": "I Want to Volunteer"
+    },
+    "form": {
+      "title": "Personalized Care",
+      "step": "Step 1 of 3",
+      "quote": "Taking the first step is often the hardest part. We're here to listen without judgment, providing a space for your growth.",
+      "feelingLabel": "How are you feeling today?",
+      "chooseOption": "Choose an option",
+      "feelingOptions": {
+        "overwhelmed": "I feel overwhelmed",
+        "lonely": "I feel lonely or isolated",
+        "guidance": "I'm looking for guidance for a loved one",
+        "talk": "I just need someone to talk to"
+      },
+      "channelLabel": "Preferred Support Channel",
+      "textChat": "Text Chat",
+      "voiceCall": "Voice Call",
+      "optionalLabel": "Anything else you'd like us to know? (Optional)",
+      "optionalPlaceholder": "A brief word on what's on your mind...",
+      "continueButton": "Continue to Next Step",
+      "secure": "Encrypted & Secure"
+    },
+    "volunteer": {
+      "title": "The Impact of Your Time",
+      "description": "AYA volunteers are the heartbeat of our organization. Like a lotus rising through water, your presence helps others find their light.",
+      "adolescentsSupported": "Adolescents Supported",
+      "hoursListening": "Hours of Listening",
+      "becomeTitle": "How to become a volunteer",
+      "training": {
+        "title": "Empathetic Training",
+        "description": "Comprehensive 4-week psychological first-aid training program."
+      },
+      "commitment": {
+        "title": "Flexible Commitment",
+        "description": "Minimum of 4 hours per week, tailored to your schedule."
+      },
+      "community": {
+        "title": "Supportive Community",
+        "description": "Join our monthly group supervision and debriefing circles."
+      },
+      "applyButton": "Apply to Volunteer"
+    },
+    "emergency": {
+      "badge": "Urgent Care",
+      "title": "In Immediate Danger?",
+      "description": "If you are experiencing a life-threatening emergency, please contact national emergency services or a crisis hotline immediately. Your safety is paramount.",
+      "crisisLine": "Call 988 (Crisis Line)",
+      "allResources": "All Emergency Resources"
+    }
+  }
+}

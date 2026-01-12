@@ -8,23 +8,23 @@
           <div class="flex flex-col gap-4">
             <div class="inline-flex items-center gap-2 text-violet-400 font-bold text-sm tracking-widest uppercase">
               <span class="w-8 h-[1px] bg-violet-400"></span>
-              Finding Balance
+              {{ $t('support.hero.badge') }}
             </div>
             <h1 class="text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-7xl text-gray-900">
-              You are not alone.
+              {{ $t('support.hero.title') }}
             </h1>
             <p class="text-lg font-normal leading-relaxed text-gray-600">
-              Whether you are navigating a difficult season or looking to share your strength, AYA is a sanctuary built on empathy, rebirth, and professional guidance.
+              {{ $t('support.hero.description') }}
             </p>
           </div>
           <div class="flex flex-wrap gap-6">
             <div class="flex items-center gap-2 text-sm font-semibold text-gray-500">
               <Icon icon="material-symbols:verified-user" class="text-violet-400" />
-              24/7 Professional Oversight
+              {{ $t('support.hero.professionalOversight') }}
             </div>
             <div class="flex items-center gap-2 text-sm font-semibold text-gray-500">
               <Icon icon="material-symbols:lock" class="text-violet-400" />
-              100% Confidential
+              {{ $t('support.hero.confidential') }}
             </div>
           </div>
         </div>

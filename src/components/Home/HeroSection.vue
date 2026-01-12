@@ -7,21 +7,21 @@
             <div class="flex flex-col gap-4 text-left">
               <span class="text-violet-300 font-bold tracking-widest text-sm uppercase py-2 px-4 bg-violet-500/10 rounded-full inline-flex items-center gap-3 w-fit">
                 <Icon icon="material-symbols:local-florist" class="text-violet-400 text-xl" />
-                Pure Empathy
+                {{ $t('hero.badge') }}
               </span>
-              <h1 class="text-gray-900 text-5xl md:text-7xl font-black leading-[1.1] tracking-[-0.033em] font-display">
-                One help at <br/>a time
+              <h1 class="text-gray-900 text-5xl md:text-7xl font-black leading-[1.1] tracking-[-0.033em] font-display whitespace-pre-line">
+                {{ $t('hero.title') }}
               </h1>
               <p class="text-black text-lg md:text-xl font-normal leading-relaxed max-w-[500px]">
-                Providing personalized psychological support and companionship for those who need it most. We're here to listen.
+                {{ $t('hero.description') }}
               </p>
             </div>
             <div class="flex flex-wrap gap-4">
               <button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-violet-400 text-gray-900 text-lg font-bold shadow-lg shadow-primary/20 hover:bg-violet-500 transition-all">
-                Get Support Now
+                {{ $t('hero.getSupport') }}
               </button>
               <button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-white text-gray-900 text-lg font-bold border-2 border-gray-200 hover:bg-violet-50 transition-all">
-                Become a Volunteer
+                {{ $t('hero.becomeVolunteer') }}
               </button>
             </div>
             <div class="flex items-center gap-4 mt-2">
@@ -36,7 +36,7 @@
                   <div class="w-full h-full bg-cover" data-alt="Young person portrait" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuByNYpTF1fR99TCJ0ICyTeW55j2VONVhZsYbOublR12I7edAONOBUnri7aV9FQ5Acb9alKRkMk6Kt7lHmsSf0LYLCBjiIL2pzu_oJLwrT3DuQBbVtqJX1h9ZP1hizTmdxkKOgfXvnzXHJGzX1l2o06s4EVnQ0l_GCQYTtC96U-4LM9RVhF_Kmxs9otNzxAcqE9FVhqMvqK8-O0JPMSJTcCG4Cex73isgBDFLo6aXmaWfR0_WNGPlcX-TfPsFn0f4JyZJzXiVeqngpg");'></div>
                 </div>
               </div>
-              <p class="text-sm font-medium text-gray-500">Join 500+ active volunteers helping daily</p>
+              <p class="text-sm font-medium text-gray-500">{{ $t('hero.joinVolunteers') }}</p>
             </div>
           </div>
           <div class="w-full md:w-1/2 relative flex items-center justify-center">

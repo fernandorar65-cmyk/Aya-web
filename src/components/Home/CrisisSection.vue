@@ -3,8 +3,8 @@
     <div class="w-full flex justify-center">
     <div class="bg-violet-100 rounded-[2rem] p-10 md:p-16 lg:p-20 flex flex-col md:flex-row items-center justify-between gap-10 w-full">
       <div class="flex-1 w-full">
-        <h2 class="text-3xl md:text-4xl text-black font-bold mb-4 leading-tight">In immediate crisis?</h2>
-        <p class="text-base md:text-lg text-gray-700 mb-8 leading-relaxed">Our emergency intervention team is standing by. Don't wait, your life and well-being matter to us.</p>
+        <h2 class="text-3xl md:text-4xl text-black font-bold mb-4 leading-tight">{{ $t('crisis.title') }}</h2>
+        <p class="text-base md:text-lg text-gray-700 mb-8 leading-relaxed">{{ $t('crisis.description') }}</p>
         <div class="flex items-center gap-4">
           <div class="w-14 h-14 rounded-full bg-violet-500 flex items-center justify-center flex-shrink-0">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-7 h-7">
@@ -12,14 +12,14 @@
             </svg>
           </div>
           <div>
-            <p class="text-xs md:text-sm text-gray-600 font-medium uppercase tracking-widest mb-1">Call our 24/7 hotline</p>
-            <p class="text-xl md:text-2xl text-black font-bold tracking-tight">1-800-AYA-HELP</p>
+            <p class="text-xs md:text-sm text-gray-600 font-medium uppercase tracking-widest mb-1">{{ $t('crisis.hotline') }}</p>
+            <p class="text-xl md:text-2xl text-black font-bold tracking-tight">{{ $t('crisis.phoneNumber') }}</p>
           </div>
         </div>
       </div>
       <div class="w-full md:w-auto flex-shrink-0">
         <button class="w-full md:w-auto px-10 md:px-12 py-4 md:py-5 bg-gray-900 text-white rounded-2xl font-semibold text-base md:text-lg hover:opacity-90 transition-opacity">
-          Chat Online Now
+          {{ $t('crisis.chatOnline') }}
         </button>
       </div>
     </div>

@@ -1,0 +1,166 @@
+{
+  "common": {
+    "welcome": "Bienvenido a AYA",
+    "getHelp": "Obtener Ayuda",
+    "volunteer": "Voluntario",
+    "learnMore": "Saber más",
+    "home": "Inicio",
+    "about": "Acerca de",
+    "whoWeHelp": "A Quién Ayudamos",
+    "howItWorks": "Cómo Funciona"
+  },
+  "hero": {
+    "badge": "Empatía Pura",
+    "title": "Una ayuda\na la vez",
+    "description": "Proporcionando apoyo psicológico personalizado y compañía para quienes más lo necesitan. Estamos aquí para escuchar.",
+    "getSupport": "Obtener Apoyo Ahora",
+    "becomeVolunteer": "Convertirse en Voluntario",
+    "joinVolunteers": "Únete a más de 500 voluntarios activos ayudando diariamente"
+  },
+  "mission": {
+    "title": "Restaurando la esperanza a través de la conexión humana y la empatía profesional.",
+    "quote": "Creemos en el poder de ser escuchado. Cada loto florece en su momento; proporcionamos el ambiente suave para ese crecimiento."
+  },
+  "whoWeHelp": {
+    "title": "A Quién Ayudamos",
+    "adolescents": {
+      "title": "Jóvenes y Adolescentes",
+      "description": "Navegar por la escuela, las relaciones y la identidad puede ser abrumador. Ofrecemos un oído sin prejuicios para la generación más joven."
+    },
+    "distress": {
+      "title": "Personas en Distrés",
+      "description": "Apoyo emocional inmediato para quienes enfrentan los momentos más difíciles de la vida. No tienes que cargar el peso solo."
+    },
+    "elderly": {
+      "title": "Compañía para Adultos Mayores",
+      "description": "Luchando contra la soledad a través de compañía regular y escucha activa para nuestros adultos mayores en aislamiento."
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Tres simples pasos para comenzar tu viaje con nosotros",
+    "step1": {
+      "title": "Contacta",
+      "description": "Llama o envía un mensaje a nuestra línea segura. Nuestro equipo de admisión está disponible 24/7 para escucharte."
+    },
+    "step2": {
+      "title": "Emparejamiento",
+      "description": "Te emparejamos con un voluntario capacitado que se especializa en tus necesidades específicas."
+    },
+    "step3": {
+      "title": "Sanar Juntos",
+      "description": "Comienza sesiones regulares en un ambiente cómodo, construyendo un puente hacia la recuperación."
+    }
+  },
+  "crisis": {
+    "title": "¿En crisis inmediata?",
+    "description": "Nuestro equipo de intervención de emergencia está esperando. No esperes, tu vida y bienestar son importantes para nosotros.",
+    "hotline": "Llama a nuestra línea 24/7",
+    "phoneNumber": "1-800-AYA-HELP",
+    "chatOnline": "Chatear en Línea Ahora"
+  },
+  "about": {
+    "impact": {
+      "title": "Nuestro Impacto",
+      "description": "Transformando vidas a través de la compasión. Proporcionamos apoyo psicológico especializado y compañía para quienes navegan las transiciones más desafiantes de la vida.",
+      "adolescents": {
+        "title": "Adolescentes",
+        "item1": "Descubrimiento de identidad y apoyo a la autoestima.",
+        "item2": "Manejo de la presión académica."
+      },
+      "distress": {
+        "title": "Personas en Distrés",
+        "item1": "Intervención en crisis con empatía.",
+        "item2": "Orientación clínica profesional."
+      },
+      "elderly": {
+        "title": "Adultos Mayores en Abandono",
+        "item1": "Compañía social constante.",
+        "item2": "Restaurando la dignidad y la presencia."
+      }
+    },
+    "process": {
+      "title": "Cómo Funciona: Una ayuda a la vez",
+      "description": "Nuestro proceso de apoyo psicológico simplificado te guía a través de cada paso del viaje.",
+      "step1": {
+        "title": "Primer Contacto",
+        "description": "Comunícate a través de nuestro formulario seguro o línea directa 24/7 para comenzar el viaje."
+      },
+      "step2": {
+        "title": "Evaluación Inicial",
+        "description": "Un psicólogo clínico evalúa tus necesidades únicas con empatía."
+      },
+      "step3": {
+        "title": "Emparejamiento",
+        "description": "Te emparejamos con un voluntario especializado que se ajusta a tu perfil."
+      },
+      "step4": {
+        "title": "Acompañamiento",
+        "description": "Apoyo personalizado continuo durante todo el tiempo que lo necesites."
+      },
+      "startProcess": "Iniciar el Proceso",
+      "becomeVolunteer": "Convertirse en Voluntario"
+    }
+  },
+  "support": {
+    "hero": {
+      "badge": "Encontrando el Equilibrio",
+      "title": "No estás solo.",
+      "description": "Ya sea que estés navegando por una temporada difícil o buscando compartir tu fortaleza, AYA es un santuario construido sobre empatía, renacimiento y orientación profesional.",
+      "professionalOversight": "Supervisión Profesional 24/7",
+      "confidential": "100% Confidencial"
+    },
+    "tabs": {
+      "title": "¿Cómo podemos ayudarte hoy?",
+      "needSupport": "Necesito Apoyo",
+      "wantVolunteer": "Quiero ser Voluntario"
+    },
+    "form": {
+      "title": "Atención Personalizada",
+      "step": "Paso 1 de 3",
+      "quote": "Dar el primer paso suele ser la parte más difícil. Estamos aquí para escuchar sin juzgar, brindando un espacio para tu crecimiento.",
+      "feelingLabel": "¿Cómo te sientes hoy?",
+      "chooseOption": "Elige una opción",
+      "feelingOptions": {
+        "overwhelmed": "Me siento abrumado/a",
+        "lonely": "Me siento solo/a o aislado/a",
+        "guidance": "Busco orientación para un ser querido",
+        "talk": "Solo necesito alguien con quien hablar"
+      },
+      "channelLabel": "Canal de Apoyo Preferido",
+      "textChat": "Chat de Texto",
+      "voiceCall": "Llamada de Voz",
+      "optionalLabel": "¿Hay algo más que te gustaría que supiéramos? (Opcional)",
+      "optionalPlaceholder": "Una breve palabra sobre lo que tienes en mente...",
+      "continueButton": "Continuar al Siguiente Paso",
+      "secure": "Cifrado y Seguro"
+    },
+    "volunteer": {
+      "title": "El Impacto de Tu Tiempo",
+      "description": "Los voluntarios de AYA son el corazón de nuestra organización. Como un loto que emerge del agua, tu presencia ayuda a otros a encontrar su luz.",
+      "adolescentsSupported": "Adolescentes Apoyados",
+      "hoursListening": "Horas de Escucha",
+      "becomeTitle": "Cómo convertirse en voluntario",
+      "training": {
+        "title": "Entrenamiento Empático",
+        "description": "Programa integral de entrenamiento en primeros auxilios psicológicos de 4 semanas."
+      },
+      "commitment": {
+        "title": "Compromiso Flexible",
+        "description": "Mínimo de 4 horas por semana, adaptado a tu horario."
+      },
+      "community": {
+        "title": "Comunidad de Apoyo",
+        "description": "Únete a nuestros círculos de supervisión grupal mensual y sesiones de análisis."
+      },
+      "applyButton": "Postularse como Voluntario"
+    },
+    "emergency": {
+      "badge": "Atención Urgente",
+      "title": "¿En Peligro Inmediato?",
+      "description": "Si estás experimentando una emergencia que pone en peligro tu vida, por favor contacta inmediatamente a los servicios de emergencia nacionales o una línea de crisis. Tu seguridad es primordial.",
+      "crisisLine": "Llama al 988 (Línea de Crisis)",
+      "allResources": "Todos los Recursos de Emergencia"
+    }
+  }
+}

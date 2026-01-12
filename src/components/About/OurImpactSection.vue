@@ -3,9 +3,9 @@
     <div class="flex justify-center mb-4">
       <Icon icon="material-symbols:local-florist" class="text-violet-400 text-4xl" />
     </div>
-    <h1 class="text-gray-900 tracking-light text-[32px] md:text-[42px] font-bold leading-tight px-4 text-center pb-3">Our Impact</h1>
+    <h1 class="text-gray-900 tracking-light text-[32px] md:text-[42px] font-bold leading-tight px-4 text-center pb-3">{{ $t('about.impact.title') }}</h1>
     <p class="text-gray-600 text-base font-normal leading-normal pb-8 pt-1 px-4 text-center max-w-2xl mx-auto">
-      Transforming lives through compassion. We provide specialized psychological support and companionship for those navigating life's most challenging transitions.
+      {{ $t('about.impact.description') }}
     </p>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-4">
       <!-- Adolescents Card -->
@@ -16,16 +16,16 @@
         <div>
           <div class="flex items-center gap-2 mb-3 text-violet-400">
             <Icon icon="material-symbols:auto-awesome" />
-            <p class="text-gray-900 text-lg font-bold leading-normal">Adolescents</p>
+            <p class="text-gray-900 text-lg font-bold leading-normal">{{ $t('about.impact.adolescents.title') }}</p>
           </div>
           <ul class="space-y-2">
             <li class="flex items-start gap-2 text-gray-600 text-sm leading-relaxed">
               <span class="text-violet-400 mt-1">•</span>
-              <span>Identity discovery and self-esteem support.</span>
+              <span>{{ $t('about.impact.adolescents.item1') }}</span>
             </li>
             <li class="flex items-start gap-2 text-gray-600 text-sm leading-relaxed">
               <span class="text-violet-400 mt-1">•</span>
-              <span>Managing academic pressure.</span>
+              <span>{{ $t('about.impact.adolescents.item2') }}</span>
             </li>
           </ul>
         </div>
@@ -39,16 +39,16 @@
         <div>
           <div class="flex items-center gap-2 mb-3 text-violet-400">
             <Icon icon="material-symbols:psychology" />
-            <p class="text-gray-900 text-lg font-bold leading-normal">People in Distress</p>
+            <p class="text-gray-900 text-lg font-bold leading-normal">{{ $t('about.impact.distress.title') }}</p>
           </div>
           <ul class="space-y-2">
             <li class="flex items-start gap-2 text-gray-600 text-sm leading-relaxed">
               <span class="text-violet-400 mt-1">•</span>
-              <span>Crisis intervention with empathy.</span>
+              <span>{{ $t('about.impact.distress.item1') }}</span>
             </li>
             <li class="flex items-start gap-2 text-gray-600 text-sm leading-relaxed">
               <span class="text-violet-400 mt-1">•</span>
-              <span>Professional clinical guidance.</span>
+              <span>{{ $t('about.impact.distress.item2') }}</span>
             </li>
           </ul>
         </div>
@@ -62,16 +62,16 @@
         <div>
           <div class="flex items-center gap-2 mb-3 text-violet-400">
             <Icon icon="material-symbols:volunteer-activism" />
-            <p class="text-gray-900 text-lg font-bold leading-normal">Elderly in Abandonment</p>
+            <p class="text-gray-900 text-lg font-bold leading-normal">{{ $t('about.impact.elderly.title') }}</p>
           </div>
           <ul class="space-y-2">
             <li class="flex items-start gap-2 text-gray-600 text-sm leading-relaxed">
               <span class="text-violet-400 mt-1">•</span>
-              <span>Consistent social companionship.</span>
+              <span>{{ $t('about.impact.elderly.item1') }}</span>
             </li>
             <li class="flex items-start gap-2 text-gray-600 text-sm leading-relaxed">
               <span class="text-violet-400 mt-1">•</span>
-              <span>Restoring dignity and presence.</span>
+              <span>{{ $t('about.impact.elderly.item2') }}</span>
             </li>
           </ul>
         </div>

@@ -9,10 +9,10 @@
       <div class="w-full max-w-[1000px] flex flex-col items-center text-center relative z-10 px-6">
         <Icon icon="material-symbols:spa" class="text-violet-600 text-5xl mb-8" />
         <h2 class="text-gray-900 text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-8 font-display">
-          Restoring hope through human connection and professional empathy.
+          {{ $t('mission.title') }}
         </h2>
         <p class="text-gray-600 text-xl md:text-2xl font-medium italic leading-relaxed max-w-[800px] mx-auto">
-          "We believe in the power of being heard. Every lotus blooms in its own time; we provide the gentle environment for that growth."
+          "{{ $t('mission.quote') }}"
         </p>
       </div>
     </div>

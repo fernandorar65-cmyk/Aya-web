@@ -17,17 +17,17 @@
     </div>
     <div class="flex flex-1 justify-end gap-8 items-center">
       <nav class="hidden md:flex items-center gap-8">
-        <a class="text-sm font-medium text-black hover:text-primary transition-colors" href="#home">Home</a>
-        <a class="text-sm font-medium text-black hover:text-primary transition-colors" href="#about">About Us</a>
-        <a class="text-sm font-medium text-black hover:text-primary transition-colors" href="#who-we-help">Who We Help</a>
-        <a class="text-sm font-medium text-black hover:text-primary transition-colors" href="#how-it-works">How It Works</a>
+        <a class="text-sm font-medium text-black hover:text-primary transition-colors" href="#home">{{ $t('common.home') }}</a>
+        <a class="text-sm font-medium text-black hover:text-primary transition-colors" href="#about">{{ $t('common.about') }}</a>
+        <a class="text-sm font-medium text-black hover:text-primary transition-colors" href="#who-we-help">{{ $t('common.whoWeHelp') }}</a>
+        <a class="text-sm font-medium text-black hover:text-primary transition-colors" href="#how-it-works">{{ $t('common.howItWorks') }}</a>
       </nav>
       <div class="flex gap-3">
         <button class="flex min-w-[100px] cursor-pointer items-center justify-center rounded-xl h-10 px-5 bg-violet-400 text-black text-sm font-bold transition-transform hover:scale-105 active:scale-95">
-          Get Help
+          {{ $t('common.getHelp') }}
         </button>
         <button class="flex min-w-[100px] cursor-pointer items-center justify-center rounded-xl h-10 px-5 dark:bg-violet-50 text-black text-sm font-bold transition-transform hover:scale-105 active:scale-95 border border-violet-200 dark:border-violet-200">
-          Volunteer
+          {{ $t('common.volunteer') }}
         </button>
       </div>
     </div>
